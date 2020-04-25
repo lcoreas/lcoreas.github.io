@@ -38,6 +38,9 @@ h5{
   font-family: sans-serif;
   color: rgb(32,20,150);
 }
+h5.price{
+  color: rgb(13,158,114)
+}
   
 body{
     background-color: rgb(237,233,213);
