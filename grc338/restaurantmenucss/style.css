@@ -1,7 +1,9 @@
                                                 /*CSS DOCUMENT*/
 
 h1{
-    color: rgb(0,255,0);
+    color: rgb(25,176,131);
+    background-color: rgb(255,171,107);
+    padding: 1em 3em 1em 3em;
 }
 h2{
     color: rgb(0,195,0);
