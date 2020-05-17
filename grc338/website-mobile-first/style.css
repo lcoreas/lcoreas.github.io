@@ -1,0 +1,70 @@
+/*CSS DOCUMENT*/
+
+body{
+    background-color: rgb(255, 246, 224)
+}
+
+h1{
+    font-size: 3em
+}
+h2{
+    margin-top: 5em;
+    text-align: center;
+    font-family: nobel, sans-serif;
+}
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.name{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: acier-bat-noir, sans-serif;
+    text-align: center;
+}
+a{
+    font-family: nobel, sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(112,200,182);
+}
+a:hover{
+    color: rgb(0,0,0);
+}
+.link{
+    float: left;
+    width: 30%;
+    list-style: none;
+}
+nav{
+  text-align: center
+}
+h3{
+    font-family: nobel, sans-serif;
+    text-align: center;
+}
+h4,h5{
+    font-family:  nobel, sans-serif;
+}
+img{
+    border-radius: 25px;
+    width: 100%
+}
+.mainpage{
+    margin-top: 5em
+}
+.place{
+    list-style: none;
+}
+.concerns{
+    text-align: center;
+    color: rgb(112,200,182);
+}
