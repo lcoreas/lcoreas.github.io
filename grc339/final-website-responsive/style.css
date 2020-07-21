@@ -1,7 +1,7 @@
 /*CSS document*/
 
 body {
-        background-color: rgb(255, 249, 222)
+    background-color: rgb(255, 249, 222)
 }
 
 main {
@@ -13,14 +13,6 @@ main {
 figure{
     margin: 0;
     width: calc(100%-2em);
-    transition: opacity .5s;
-}
-
-.photo{
-    margin: 0;
-    width: calc(100%-2em);
-    position: absolute;
-    opacity: 0;
     transition: opacity .5s;
 }
 
@@ -45,6 +37,14 @@ main {
     position: relative;
     overflow: hidden;
     padding-bottom: calc(100% + 2em);
+}
+
+.photo{
+    margin: 0;
+    width: calc(100%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: opacity .5s;
 }
 
 div.container {
@@ -79,7 +79,8 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
 input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
 input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
 input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
-input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8),
+input:nth-of-type(9):checked ~ main figure:nth-of-type(9){
     opacity: 1;
 }
 
@@ -98,9 +99,6 @@ div.mainstory{
     margin: 0 auto;
     padding: 1em;
 }
-
-
-
 
 @media screen and (min-width: 40em){
     
