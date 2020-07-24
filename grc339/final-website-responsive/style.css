@@ -22,6 +22,20 @@ a,p,h1,h2{
     color: rgb(0, 0, 0)
 }
 
+h3{
+   
+    background-color: rgb(255, 209, 148);
+    border-radius: 10px;
+    padding: .5em;
+    width: fit-content;
+}
+
+.links{
+    background-color: rgb(255, 209, 148);
+    border-radius: 10px;
+    padding: .5em
+}
+
 figcaption{
     font-family: interstate, sans-serif;
     font-style: italic;
@@ -31,12 +45,14 @@ figcaption{
 
 aside{
     width: 70%;
+    margin-top: 1em
 }
 
 main {
     position: relative;
     overflow: hidden;
     padding-bottom: calc(100% + 2em);
+    margin-bottom: -2em
 }
 
 
@@ -70,7 +86,14 @@ img {
 
 ul {
     list-style-type: none;
-    padding: none;
+    padding: 2em;
+    margin: auto;
+}
+
+li{
+    float: left;
+    width:25%;
+    
 }
 
 input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
@@ -85,10 +108,11 @@ input:nth-of-type(9):checked ~ main figure:nth-of-type(9){
     opacity: 1;
 }
 
-nav {
+.photonav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: .2em;
+    
 }
 
 input {
@@ -121,6 +145,10 @@ div.mainstory{
     .thumbnail{
     width: 11em;
     height: 11em;
+}
+    
+.head{
+    font-size: 2em
 }
     
 }
